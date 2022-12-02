@@ -1,0 +1,8 @@
+// 把这个文件复制一份后缀.template去掉，然后修改其中的配置
+module.exports = {
+  host: 'localhost',
+  port: 3306,
+  user: 'root',
+  database: 'test',
+  password: 'xxxxxx',
+}
