@@ -6,6 +6,8 @@ const userConroller = require('../controller/user.controller')
 
 userRouter.post('/register', userConroller.createUser)
 
-// userRouter.post('/login', userConroller.createUser)
+userRouter.post('/login', userConroller.login)
+
+userRouter.get('/', userConroller.getUserList)
 
 module.exports = userRouter

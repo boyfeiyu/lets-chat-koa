@@ -13,6 +13,8 @@ dist-ssr
 *.local
 
 database.config.js
+private.key
+public.key
 
 # Editor directories and files
 .vscode/*

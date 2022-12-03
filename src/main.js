@@ -1,5 +1,5 @@
-const app = require('./app')
+const httpServer = require('./app')
 
-app.listen(3050, () => {
+httpServer.listen(3050, () => {
   console.log('server running at 3050~')
 })
